@@ -32,13 +32,6 @@ reserving any changes:
 The [same constraints](../README.md#debugging-on-your-local-environment) apply
 to loading unsafe scripts.
 
-## Using the extension in production
-
-To minimize all dependencies and upload the extension to Contentful:
-
-```bash gulp bundle contentful-extension update --srcdoc ./dist/index.min.html
---force --space-id <space-id> ```
-
 ## Hosting
 
 The hosting of a Contentful ui extension can be done in one of two ways:
