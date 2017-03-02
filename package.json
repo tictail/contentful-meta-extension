@@ -1,6 +1,9 @@
 {
-  "name": "Contentful Meta Extension",
+  "name": "contentful-meta-extension",
   "version": "1.0.0",
+  "scripts": {
+    "deploy": "gulp bundle && gh-pages publish -d dist"
+  },
   "dependencies": {
     "contentful-ui-extensions-sdk": "^2.0.0",
     "json-editor": "^0.7.23"
