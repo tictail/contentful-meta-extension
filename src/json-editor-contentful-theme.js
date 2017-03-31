@@ -39,6 +39,7 @@ JSONEditor.defaults.themes.contentful = (function (JSONEditor) {
       el.className += ' jfe-switcher';
       return el;
     },
+    getTextareaInput: 'cf-form-input',
     getErrorMessage: function (text) {
       var el = document.createElement('div');
       el.appendChild(document.createTextNode(text));
