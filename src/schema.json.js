@@ -6,15 +6,19 @@ window.CONTENTFUL_FORM_EDITOR_SCHEMA = {
   "type": "object",
   "id": "person",
   "properties": {
+    "title": {
+      "type": "string",
+      "propertyOrder": 10
+    },
     "description": {
       "type": "string",
       "format": "textarea",
-      "propertyOrder": 10
+      "propertyOrder": 20
     },
     "keywords": {
       "type": "string",
       "description": "A comma separated list of keywords",
-      "propertyOrder": 20
+      "propertyOrder": 30
     }
   }
 };
