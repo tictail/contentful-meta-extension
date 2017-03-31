@@ -1,6 +1,6 @@
 {
-  "id": "jsonFormEditor",
-  "name": "JSON Form Editor",
-  "src": "http://localhost:3000/",
+  "id": "meta-extension",
+  "name": "Meta extension",
+  "src": "https://tictail.github.io/contentful-meta-extension/",
   "fieldTypes": ["Object"]
 }
